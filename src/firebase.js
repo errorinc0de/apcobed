@@ -5,13 +5,13 @@ import "firebase/auth"
 import * as geofirestore from 'geofirestore';
 
 const app = firebase.initializeApp({
-  apiKey: "AIzaSyDDEahev_KUcn6lyh59o8o5ysqtcobkI3g",
+  apiKey: "#YOUR_API_KEY_HERE",
   authDomain: "hackon-covidsol.firebaseapp.com",
   projectId: "hackon-covidsol",
   storageBucket: "hackon-covidsol.appspot.com",
-  messagingSenderId: "775421897807",
-  appId: "1:775421897807:web:dafc3dce7b22a6e0988e3a",
-  measurementId: "G-8EK77MB0DG"
+  messagingSenderId: "#YOUR_MESSAGE_SENDING_KEY",
+  appId: "#YOUR_APP_ID",
+  measurementId: "#YOUR_MEASUREMENT_ID"
 })
 
 export const auth = app.auth()
