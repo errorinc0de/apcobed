@@ -31,6 +31,7 @@ import PolicePrivateRoute from './components/PolicePrivateRoute';
 import HospitalPrivateRoute from './components/HospitalPrivateRoute';
 import ActiveRecords from './routes/ActiveCases';
 import NotFound from './components/NotFound'
+import Register from './routes/Register';
 function App() {
   return (
       <Router>
@@ -42,6 +43,7 @@ function App() {
             <Route exact path="/police-login" component={PoliceLogin} />
             <Route exact path="/fundraiser/:id" component={FundraiserLandingPage}/>
             <Route exact path="/" component={Login} />
+            <Route exact path="/register" component={Register} />
             <PrivateRoute exact path="/dashboard" component={HomePage} />
             <PrivateRoute exact path="/leads" component={Leads} />
             <PrivateRoute exact path="/help" component={VolunteeringServices} />
