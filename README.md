@@ -44,14 +44,15 @@
 
 | Endpoints | Description |
 |:-:|:-:|
-| [/](https://apcobed.co/) | User Login or Register |
-| [/profile](https://apcobed.co/profile) | Edit your Profile |
-| [/dashboard](https://apcobed.co/dashboard)  | User Dashboard |
-| [/leads](https://apcobed.co/leads) | Covid Emergency Supplies |
-| [/help](https://apcobed.co/help) | Volunteering Service Provider | 
-| [/fundraiser](https://apcobed.co/fundraiser) | Create or View Fundraisers |
-| [/fundraiser/:id](https://apcobed.co/fundraiser/:id) | View or Donate to a Fundraiser |
-| [/question](https://apcobed.co/question) | Ask a Doctor |
+| [/](https://hackon-covidsol.web.app/) | User Login |
+| [/register](https://hackon-covidsol.web.app/register) | User Register |
+| [/profile](https://hackon-covidsol.web.app/profile) | Edit your Profile |
+| [/dashboard](https://hackon-covidsol.web.app/dashboard)  | User Dashboard |
+| [/leads](https://hackon-covidsol.web.app/leads) | Covid Emergency Supplies |
+| [/help](https://hackon-covidsol.web.app/help) | Volunteering Service Provider | 
+| [/fundraiser](https://hackon-covidsol.web.app/fundraiser) | Create or View Fundraisers |
+| [/fundraiser/:id](https://hackon-covidsol.web.app/fundraiser/:id) | View or Donate to a Fundraiser |
+| [/question](https://hackon-covidsol.web.app/question) | Ask a Doctor |
   
 </center>
 
@@ -61,12 +62,12 @@
 
 | Endpoints | Description |
 |:-:|:-:|
-| [/hospital-login](https://apcobed.co/hospital-login) | Hospital Login |
-| [/hospital-register](https://apcobed.co/hospital-register) | Hospital Register |
-| [/hospital-profile](https://apcobed.co/hospital-profile) | Hospital Profile |
-| [/hospital-dashboard](https://apcobed.co/hospital-dashboard) | Hospital Dashboard |
-| [/PatientRecords](https://apcobed.co/PatientRecords) | Hospital Patient Records |
-| [/HospitalSettings](https://apcobed.co/HospitalSettings) | Hospital Settings |
+| [/hospital-login](https://hackon-covidsol.web.app/hospital-login) | Hospital Login |
+| [/hospital-register](https://hackon-covidsol.web.app/hospital-register) | Hospital Register |
+| [/hospital-profile](https://hackon-covidsol.web.app/hospital-profile) | Hospital Profile |
+| [/hospital-dashboard](https://hackon-covidsol.web.app/hospital-dashboard) | Hospital Dashboard |
+| [/PatientRecords](https://hackon-covidsol.web.app/PatientRecords) | Hospital Patient Records |
+| [/HospitalSettings](https://hackon-covidsol.web.app/HospitalSettings) | Hospital Settings |
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -74,12 +75,12 @@
 
 | Endpoints | Description |
 |:-:|:-:|
-| [/police-login](https://apcobed.co/police-login) | Police Login |
-| [/police-register](https://apcobed.co/police-register) | Police Register |
-| [/police-dashboard](https://apcobed.co/police-dashboard) | Police Dashboard |
-| [/police-records](https://apcobed.co/police-records) | Police Records |
-| [/active-records](https://apcobed.co/active-records) | List of Ongoing Police Supported Cases|
-| [/police-dashboard-settings](https://apcobed.co/police-dashboard-settings) | Police Dashboard Settings |
+| [/police-login](https://hackon-covidsol.web.app/police-login) | Police Login |
+| [/police-register](https://hackon-covidsol.web.app/police-register) | Police Register |
+| [/police-dashboard](https://hackon-covidsol.web.app/police-dashboard) | Police Dashboard |
+| [/police-records](https://hackon-covidsol.web.app/police-records) | Police Records |
+| [/active-records](https://hackon-covidsol.web.app/active-records) | List of Ongoing Police Supported Cases|
+| [/police-dashboard-settings](https://hackon-covidsol.web.app/police-dashboard-settings) | Police Dashboard Settings |
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -104,21 +105,13 @@
 
 1. Clone the Repo
    
-   `git clone https://github.com/aritrakrbasu/apcobed`
+   `git clone https://github.com/errorinc0de/apcobed`
    
 2. Install Dependencies
 
    `npm install`
 
-3. Create an account at [Sawo LABS](https://sawolabs.com/)
-
-4. Create new project inside Developer Console
-
-5. Enter the Host Name and enter `localhost` for Development Server
-
-6. Copy generated API Key, replace `API Key inside useEffect Hook` in `src/routes/login.js`
-
-6. Run the local server
+3. Run the local server
 
    `npm start`
 
